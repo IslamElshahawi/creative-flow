@@ -1,0 +1,21 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+/out/
+/runs/
+
+# scripts/install.sh output — generated copies of agents/, skills/, commands/.
+# Never commit these: they'd drift from the source the moment someone edits
+# agents/ or skills/ without re-running install.sh. Run install.sh locally instead.
+/.claude/
+/.agents/
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.webp
+!docs/**/*.png

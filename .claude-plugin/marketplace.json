@@ -1,0 +1,11 @@
+{
+  "name": "creative-flow",
+  "owner": { "name": "Islam Elshahawi" },
+  "plugins": [
+    {
+      "name": "creative-flow-lite",
+      "source": "./",
+      "description": "Free Saudi culture, Arabic ad copy, and hooks/CTA skills."
+    }
+  ]
+}
