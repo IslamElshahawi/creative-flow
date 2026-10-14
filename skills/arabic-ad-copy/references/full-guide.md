@@ -15,19 +15,19 @@ Four points worth distinguishing, not three — research surfaced a real gap in 
 
 | Register | Character | Signals |
 |---|---|---|
-| **Modern Standard Arabic (MSA)** | Formal, broadly understood across every Arab market, flatter emotionally. `ksa-market-research` skill: "MSA is broader but flatter" and reaches the expat market as well as Saudis. | Institutional, government-adjacent, luxury heritage, anything where gravitas outweighs intimacy. |
+| **Modern Standard Arabic (MSA)** | Formal, broadly understood across every Arab market, flatter emotionally. MSA can reach Arabic-speaking audiences beyond Saudi dialect groups, including some expats. | Institutional, government-adjacent, luxury heritage, anything where gravitas outweighs intimacy. |
 | **Light Khaleeji** | Gulf-*wide* colloquial — inflected toward the whole Gulf region, not Saudi-specific. `[inferred]` | Broad Gulf reach without narrowing to Saudi nationals — a brand selling across the GCC, not Saudi-only. |
 | **"White Saudi" / neutral Saudi colloquial** | A documented, named sociolinguistic register `[verified: Leiden University / LOT Publications dissertation, "The 'White Dialect' of young Arabic speakers from Qassim (Saudi Arabia)"]` — a leveled, blended variety young Saudis use that deliberately erases *sub-national* identity (Najdi vs. Hijazi), functioning as a neutral pan-Saudi register in both formal and informal public speech. This is a different axis from "light Khaleeji" above: Khaleeji trades regional specificity for Gulf-wide reach; White Saudi trades Najdi/Hijazi specificity for pan-Saudi reach while staying unmistakably Saudi. | Saudi-wide campaigns that want to read as Saudi without picking a side between Riyadh and Jeddah. |
 | **Regional Saudi colloquial — Najdi or Hijazi** | Saudi-specific, and **not a single option** — the file previously named only Najdi. `[verified: Asharq Al-Awsat coverage of Saudi ad-industry practice]` Saudi campaigns are frequently produced in *two* dialect versions, Najdi (Riyadh/central) and Hijazi (Jeddah/western), because a Hijazi consumer may reject Najdi-dialect advertising and vice versa — the file's original "Najdi reads as foreign to non-Saudi Gulf viewers" framing is plausible but was never sourced to a study; treat it as a reasonable inference, not a citation. | Riyadh-specific creative → Najdi. Jeddah/western-region-specific creative → Hijazi. Don't default to Najdi as "the" Saudi option when the brief's audience is regional. |
 
-Default heuristic, matching `copy-story-ar`'s dialect-decision section exactly: **Saudi dialect (light Khaleeji through regional Saudi, by brief) for DTC and lifestyle categories; MSA for institutional, luxury, and government-adjacent brands.** The two files must not drift from this default independently — if one changes, update the other.
+Default heuristic, matching the copywriter's dialect-decision section exactly: **Saudi dialect (light Khaleeji through regional Saudi, by brief) for DTC and lifestyle categories; MSA for institutional, luxury, and government-adjacent brands.** The two files must not drift from this default independently — if one changes, update the other.
 
-**The register ladder is not a fixed rung per category** — it's a dial, now with more positions than the original three-rung version had. A DTC skincare brand targeting a broad Gulf audience (not Saudi-only) sits at light Khaleeji; a Saudi-wide campaign that doesn't want to pick Riyadh over Jeddah sits at White Saudi; a Riyadh-specific or Jeddah-specific brief sits at Najdi or Hijazi respectively; a government National Day campaign sits at MSA regardless of how young the target audience skews. State the specific reasoning for the brief at hand — see copy-story-ar's Dialect decision section — rather than mechanically applying the default.
+**The register ladder is not a fixed rung per category** — it's a dial, now with more positions than the original three-rung version had. A DTC skincare brand targeting a broad Gulf audience (not Saudi-only) sits at light Khaleeji; a Saudi-wide campaign that doesn't want to pick Riyadh over Jeddah sits at White Saudi; a Riyadh-specific or Jeddah-specific brief sits at Najdi or Hijazi respectively; a government National Day campaign sits at MSA regardless of how young the target audience skews. State the specific reasoning for the brief at hand — use the register decision in this skill — rather than mechanically applying the default.
 
 ## Lock one register, campaign-wide
 
 **Pick a rung once, record it, and hold it across every shot.** The register goes in
-`brand-context.md`, is restated in the route bible, and is written to `05_copy/shot-list.json` as
+supplied brand facts, is restated in the route bible, and is written to the delivered shot list as
 `run.dialect_register`. Every downstream stage checks against it.
 
 This exists because **register whiplash is invisible to the writer and obvious to the reader**: a hook
@@ -51,9 +51,9 @@ The rungs above are useless without the words that distinguish them. What follow
 distinguishing set — enough to write a line that is actually Najdi rather than "Saudi-flavoured."
 
 > **Status: built from sourced dialect features, not from observed ad copy.** These forms are attested;
-> whether a given one belongs in a 2026 ad for a given brand is a different question, and one a Saudi
+> whether a given one belongs in a current ad for a given brand is a different question, and one a Saudi
 > copywriter answers better than this file. Tag anything you use and record corrections in
-> `docs/native-review.md`.
+> a recorded native-speaker review.
 
 ### The diagnostic words
 
@@ -112,9 +112,8 @@ that's it") is pan-Saudi colloquial. `[verified: saudidialects.com]`
 Before writing copy for a live brief, gather the actual language:
 
 1. **Competitor ads that are actually running** — TikTok Creative Center filtered to KSA, Meta Ad Library
-   filtered to Saudi Arabia, Google Ads Transparency Center. See `ksa-market-research`.
-2. **The brand's own Arabic**, from `brand-context.md`'s Voice section — the harvester captured verbatim
-   samples for exactly this reason. A brand with existing Arabic has already picked a rung; match it or
+   filtered to Saudi Arabia, Google Ads Transparency Center. See current Saudi market research.
+2. **The brand's own Arabic**, from supplied brand-voice samples. A brand with existing Arabic has already picked a rung; match it or
    deliberately change it, don't ignore it.
 3. **Saudi brand accounts on X, TikTok and Instagram.** X has unusually high Saudi penetration and is
    where a lot of brand voice actually lives. `asset-extraction` covers the tooling.
@@ -137,7 +136,7 @@ Record what you find with provenance — where observed, in what kind of copy, w
 - **Don't open with a subordinate clause.** "بينما الجميع يبحث عن..." (while everyone searches for...) delays the payload exactly where the attention budget can't afford it — this part of the original guidance holds regardless of the VSO/SVO correction.
 - **The attention-budget number itself**: `[verified: WARC / Lumen Research eye-tracking studies across thousands of video ad exposures]` — not Arabic-specific, but real: average video ads receive ~1.7 seconds of actual eye attention; as little as 1.4 seconds of attention drives a measurable lift in brand awareness; ~3.9 seconds is needed for prompted recall. "1.5 seconds" is in the right neighborhood and better-sourced now than when this file first used it, but it's global ad-attention research, not a Gulf/Arabic-specific study — hold it loosely.
 
-Write three hook alternates per `copy-story-ar`'s requirement. Vary them on **two independent axes**, not one: grammatical structure (verb-first as the default choice, subject-first when the product noun itself deserves the spotlight) and hook mechanism — pattern interrupt, question, bold claim, POV, authority/stat, visual-only, social proof, or direct address are eight distinct mechanisms worth choosing between (`[verified: github.com/Creatify-AI/video-ad-reverse-engineer, 10-category hook taxonomy]`), not just three phrasings of the same grammatical move. One mechanism from that catalog needs a compliance gut-check before use here: **controversy/hot-take hooks** risk `ksa-compliance`'s rule against content that "challenges Saudi social norms" — don't reach for this mechanism without running it past that skill first.
+Write three hook alternates per this guide's suggestion. Vary them on **two independent axes**, not one: grammatical structure (verb-first as the default choice, subject-first when the product noun itself deserves the spotlight) and hook mechanism — pattern interrupt, question, bold claim, POV, authority/stat, visual-only, social proof, or direct address are eight distinct mechanisms worth choosing between (`[verified: github.com/Creatify-AI/video-ad-reverse-engineer, 10-category hook taxonomy]`), not just three phrasings of the same grammatical move. One mechanism from that catalog needs a compliance gut-check before use here: **controversy/hot-take hooks** risk a current Saudi compliance review's rule against content that "challenges Saudi social norms" — don't reach for this mechanism without running it past that skill first.
 
 ### Hook bank
 
@@ -155,7 +154,7 @@ just choose between. Each is a **pattern to fill**, not a line to lift.
 | Question, register-neutral | ليش الكل يتكلم عن \<المنتج>؟ | neutral | Avoids the وش/إيش fork entirely |
 | Pattern interrupt | لا تشتري \<الفئة> قبل لا تشوف هذا | colloquial | لا + imperative = prohibition, per Najdi negation |
 | Bold claim (substantiable only) | \<المنتج> يوصلك خلال ٢٤ ساعة | neutral | A number survives compliance; a superlative doesn't |
-| Authority / stat | ٥ فوائد مثبتة في \<المنتج> | neutral | Must trace to `brand-context.md` |
+| Authority / stat | ٥ فوائد مثبتة في \<المنتج> | neutral | Must trace to supplied brand facts |
 | Social proof | أكثر من \<العدد> عميل في السعودية | neutral | Needs a real figure |
 | POV / direct-experience | أول مرة تجرّب \<المنتج>… بس | colloquial | بس as the colloquial closer |
 | Subject-first (marked emphasis) | \<المنتج> الجديد وصل اليوم | neutral | Marked order — use when the noun is the payload |
@@ -179,7 +178,7 @@ The most-reused copy in any ad and, until now, entirely absent from this repo. V
 | Link in bio | الرابط في البايو | *bio* as a loanword is standard in Saudi social copy `[inferred]` |
 | Limited offer | العرض لفترة محدودة | Must be true — see Claim language |
 | Free delivery | توصيل مجاني | A category-standard proposition in KSA e-commerce |
-| BNPL | قسّمها على ٤ دفعات | The framing that changes perceived accessibility more than a discount does — see `ksa-market-research` |
+| BNPL | قسّمها على ٤ دفعات | The framing that changes perceived accessibility more than a discount does — see current Saudi market research |
 
 **Note the الحين / دحين trap.** The most natural-sounding CTAs are the ones that commit to a region. If
 the campaign is pan-Saudi, prefer the neutral variants — this is exactly the kind of place a register
@@ -191,27 +190,27 @@ press is friction, not creativity.
 
 ## Length discipline
 
-Arabic is more compact than English in word count but wider in set width — connected letterforms and long horizontal joins mean a short Arabic sentence can still run wide on screen. `arabic-typography` deliberately does not give a numeric character-per-line budget ("test at final size; do not estimate from the English") — this skill doesn't invent one either, and that's a checked position, not an oversight: `[verified — absence checked]` neither TikTok's, Instagram's, nor Snapchat's official creative specs give language-specific text budgets; the UAE Government Design System (a real, live official design system) applies the same line-height rule to Arabic and Latin without differentiating; the W3C's Arabic & Persian Layout Requirements covers justification and line-breaking but not a caption character count. No platform or standards body publishes the number this section could cite — what does exist is generic content-marketing-blog numbers with no disclosed methodology, not reliable enough to repeat here even with attribution. What this skill specifies instead:
+Arabic is more compact than English in word count but wider in set width — connected letterforms and long horizontal joins mean a short Arabic sentence can still run wide on screen. Arabic typography review deliberately does not give a numeric character-per-line budget ("test at final size; do not estimate from the English") — this skill doesn't invent one either, and that's a checked position, not an oversight: `[verified — absence checked]` neither TikTok's, Instagram's, nor Snapchat's official creative specs give language-specific text budgets; the UAE Government Design System (a real, live official design system) applies the same line-height rule to Arabic and Latin without differentiating; the W3C's Arabic & Persian Layout Requirements covers justification and line-breaking but not a caption character count. No platform or standards body publishes the number this section could cite — what does exist is generic content-marketing-blog numbers with no disclosed methodology, not reliable enough to repeat here even with attribution. What this skill specifies instead:
 
-- Write to the **line-count** discipline that does exist: maximum two lines for a hook, three for supporting copy (`arabic-typography`).
+- Write to the **line-count** discipline that does exist: maximum two lines for a hook, three for supporting copy (Arabic typography review).
 - Draft short, then test the actual set width at final frame size before locking a line — a count-based estimate from the English draft will be wrong in both directions depending on how many long-descender or wide-join letters land in the Arabic phrasing.
 - When a line is too wide, cut words before abbreviating — Arabic abbreviation conventions are inconsistent and read as a mistake more often than a stylistic choice.
 
 ## Numerals
 
-Two systems — `arabic-typography` covers the mechanics (numerals read left-to-right even inside RTL text; SAR symbol placement after the figure). **The commerce-default claim needs softening, not reversing** — real usage is more contextual and more in-flux than a clean binary:
+Two systems — Arabic typography review covers the mechanics (numerals read left-to-right even inside RTL text; SAR symbol placement after the figure). **The commerce-default claim needs softening, not reversing** — real usage is more contextual and more in-flux than a clean binary:
 
 - **Western Arabic numerals (0123)** trend as the default in Saudi digital/commerce contexts — technology, computing, business, e-commerce. `[inferred]`
 - **Eastern Arabic numerals (٠١٢٣)** are the technically "correct" formal default under the `ar-SA` locale, and historically dominate currency, street signage, newspapers, and official documents.
 - **A genuine complication worth knowing**: `[inferred — single secondary source, worth a copywriter double-checking before treating as settled]` Saudi Arabia's 2023 Highway Code reportedly mandates new road signage use only Western numerals — official/state contexts moving *toward* Western, not away from it, which cuts against a simple "Eastern = formal, Western = commerce" split. The direction of travel may be toward Western becoming dominant everywhere, not staying confined to commerce.
-- **What to actually do**: there's no single settled "correct" default to cite with confidence. Pick one system per campaign based on the brand's existing convention (check `brand-context.md`) or the route's formality, and hold it consistent across every frame — mixing systems within one ad reads as an error regardless of which system you picked.
+- **What to actually do**: there's no single settled "correct" default to cite with confidence. Pick one system per campaign based on the brand's existing convention (check supplied brand facts) or the route's formality, and hold it consistent across every frame — mixing systems within one ad reads as an error regardless of which system you picked.
 
 ## Claim language
 
-Persuasive copy still has to survive `ksa-compliance` §3's substantiation rules — cite that section rather than restating it here. In practice for copywriting specifically:
+Persuasive copy still has to survive a current Saudi compliance review's substantiation rules — cite that section rather than restating it here. In practice for copywriting specifically:
 
-- Prefer specific, verifiable phrasing over superlatives. "٥ فوائد مثبتة" (5 proven benefits) survives a compliance pass that "الأفضل في المملكة" (the best in the Kingdom) does not, unless that claim traces to a source in `brand-context.md`.
-- Every claim in a draft must be checkable against `brand-context.md` before it ships — if the Asset Harvester logged "not stated on source page" for a fact, copy cannot assert it.
+- Prefer specific, verifiable phrasing over superlatives. "٥ فوائد مثبتة" (5 proven benefits) survives a compliance pass that "الأفضل في المملكة" (the best in the Kingdom) does not, unless that claim traces to a source in supplied brand facts.
+- Every claim in a draft must be checkable against supplied brand facts before it ships — if a fact is not stated in the supplied evidence, copy cannot assert it.
 
 ## Never translate
 
@@ -222,9 +221,9 @@ Writing the hook (or any line) in English first and translating it into Arabic p
 `hooks-and-ctas` (why a hook or CTA is emotionally activating, which mechanism it uses, and which named
 viral format it takes — decide that first, then render it here in correct dialect/register; this file
 doesn't diagnose flat vs. activating or pick a TikTok format on its own) · `saudi-culture` (who is
-speaking and to whom) · `ksa-compliance` (what a claim has to survive) · `arabic-typography` (how the
-line is set) · `ksa-market-research` (platforms, seasons, competitor copy) ·
-`docs/native-review.md` (where corrections to this file get recorded)
+speaking and to whom) · a current Saudi compliance review (what a claim has to survive) · Arabic typography review (how the
+line is set) · current Saudi market research (platforms, seasons, competitor copy) ·
+a recorded native-speaker review (where corrections to this file get recorded)
 
 ## Sources consulted
 

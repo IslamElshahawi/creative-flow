@@ -79,7 +79,7 @@ not whether to use the structure**: intensify the *specificity* of the friction 
 their exact morning, their exact bag not zipping, their exact workout cut short) rather than the *threat*
 of consequence. Escalate recognition, not dread.
 
-Applied to a 3-beat reel structure (mirroring `SCRIPT.md`'s beat shape):
+Applied to a 3-beat reel structure (mirroring the hook/build/payoff beat shape):
 
 1. **Hook (0–~2s)** — self-recognition or aspiration mechanism, states the specific friction or the
    specific identity, no product yet.
@@ -116,7 +116,7 @@ Concretely, prefer CTA verbs that already read as an invitation over ones that r
   cut), that's `arabic-ad-copy`'s CTA bank territory, not this skill's — this skill's job is upstream of
   that, in top/mid-funnel hook-heavy creative where the viewer hasn't decided to buy yet and a command
   reads as presumptuous.
-- Scarcity/urgency claims still have to be true (`ksa-compliance` §3) — "لفترة محدودة" only survives if
+- Scarcity/urgency claims still have to be true (a current Saudi compliance review) — "لفترة محدودة" only survives if
   the offer really is time-boxed.
 
 ## Viral TikTok hook-format library, calibrated for Saudi
@@ -144,11 +144,11 @@ ad-copy voice for the body has still failed.
 | **Curiosity-gap opener** ("ليش محد قالي إن..." — why did nobody tell me that...) | Withholds the payoff by one beat | Curiosity gap | Pairs naturally with `arabic-ad-copy`'s existing register-neutral question-hook row — don't duplicate the وش/إيش dialect fork inside a curiosity opener unless the brief has already picked a region. |
 | **Mistake call-out** ("توقفي عن..." / "غلطة كل الوحدات يسوونها") | Names a specific, narrow error the viewer recognizes | Self-recognition, escalating to relief | **Calibration required**: the raw Western form ("Stop doing X") is a bare command. Per this skill's own possibility-framed-urgency rule, soften to an invitation shape — name the mistake, then let the relief-from-friction payoff (not a command) close it, matching `saudi-culture`'s indirectness note rather than the Western hard-sell version. |
 | **Countdown / numbered list** ("٣ علامات إن...") | A bounded, scannable structure that promises a specific payoff count | Curiosity gap + structure | Safe, register-neutral, works in any dialect rung. |
-| **Comparison / "what I ordered vs. what I got"** | Two states shown side by side | Social proof or relief-from-friction, depending on which side is the brand | Substantiation rule still applies (`ksa-compliance` §3) — the "got" side has to be a real, traceable claim, not an invented worst-case competitor. |
+| **Comparison / "what I ordered vs. what I got"** | Two states shown side by side | Social proof or relief-from-friction, depending on which side is the brand | Substantiation rule still applies (a current Saudi compliance review) — the "got" side has to be a real, traceable claim, not an invented worst-case competitor. |
 | **Get Ready With Me (GRWM) / Day in the Life** | The product appears inside a real routine, not as the subject of the shot | Aspiration + relief-from-friction (fit-into-life) | `[verified: thehovi.com]` KSA audiences respond strongly to **behind-the-scenes/authenticity** framing — this format is a natural fit for that preference, more than a hard-sell demo would be. |
 | **Storytime** | A short personal narrative with the product as the turn in the story | Self-recognition → relief, escalating like a micro-PAS arc | Good vehicle for the escalation rule already stated above — the format *is* the Problem→Agitate→Relief shape in miniature. |
 | **Green-screen commentary / reaction** | The speaker reacts to or annotates something on screen behind them | Authority/curiosity, depending on what's reacted to | Lower priority for a locked single-brand ad — this format's strength is riding someone else's trending clip, which a brand doesn't control; more relevant to organic amplification strategy than to a scripted paid spot. |
-| **Contrarian / hot-take opener** | States an unexpected or counter-consensus claim | Pattern interrupt | **Compliance gate, not just a style note**: `arabic-ad-copy` already flags this exact mechanism as needing a `ksa-compliance` check before use, because a hot take can shade into "challenging Saudi social norms." Run that check before writing one, don't reach for it as a default spice. |
+| **Contrarian / hot-take opener** | States an unexpected or counter-consensus claim | Pattern interrupt | **Compliance gate, not just a style note**: `arabic-ad-copy` already flags this exact mechanism as needing a current Saudi compliance review before use, because a hot take can shade into "challenging Saudi social norms." Run that check before writing one, don't reach for it as a default spice. |
 
 ### Duration and pacing, KSA-specific
 
@@ -180,10 +180,10 @@ raise it rather than forcing a fit.
 ## Related
 
 `arabic-ad-copy` (renders the emotional shape in correct Saudi dialect and register) ·
-`campaign-strategy` (assigns which hook family/angle a video is testing, upstream of this file) ·
-`creative-quality-gate` (checks the delivered hook actually activates, not just fits in 1.5 seconds) ·
+campaign strategy (assigns which hook family/angle a video is testing, upstream of this file) ·
+a final creative review (checks whether the delivered hook activates, not just fits the timing) ·
 `saudi-culture` (the indirectness/warmth calibration this file's urgency rule is built on) ·
-`ksa-compliance` (every claim a hook implies still has to trace to brand truth)
+a current Saudi compliance review (every claim a hook implies still has to trace to brand truth)
 
 ## Sources consulted
 
