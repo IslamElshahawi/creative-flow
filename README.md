@@ -33,7 +33,7 @@ into edit-ready Arabic 9:16 ad campaigns for Saudi Arabia. Pro includes:
   and human approval gates
 - A cinematic-language reference library and campaign templates
 
-**→ [Get Creative Flow Pro on Agensi](https://www.agensi.io)**
+**→ [Get Creative Flow Pro on Agensi](https://www.agensi.io/skills/creative-flow-pro-saudi-arabic-video-ad-campaigns)** · or start smaller with the [Arabic Ad Toolkit](https://www.agensi.io/bundles/arabic-ad-toolkit-frames-type-and-ksa-compliance) (frames, Arabic type and KSA compliance)
 
 ## License
 
